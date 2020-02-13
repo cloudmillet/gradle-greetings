@@ -1,16 +1,19 @@
-/*
+
 // Declarative Pipeline  
 
 pipeline {
    agent {label:'master'}
    stages {
        stage('Source') {
+          steps {
          // Get some code from Git repository
            git 'https://github.com/cloudmillet/gradle-greetings.git'
+          } 
         }
     }
 }
-*/
+
+/*
 
 // ----- Scripted Pipeline ----- ////
    node('master') {
@@ -20,3 +23,4 @@ pipeline {
         }
     }
 
+*/
