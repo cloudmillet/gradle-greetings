@@ -1,3 +1,4 @@
+/*
 // Declarative Pipeline  
 
 pipeline {
@@ -9,8 +10,8 @@ pipeline {
         }
     }
 }
+*/
 
-/*
 // ----- Scripted Pipeline ----- ////
    node('master') {
        stage('Source') {
@@ -18,4 +19,4 @@ pipeline {
            git 'https://github.com/cloudmillet/gradle-greetings.git'
         }
     }
-*/
+
